@@ -33,7 +33,7 @@ class ExpensiveTypeController extends Controller
      */
     public function create()
     {
-        //
+        return view('expensive_type.create');
     }
 
     /**
@@ -44,7 +44,11 @@ class ExpensiveTypeController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $oData = $request->all();
+
+        $this->expensiveType->create($oData);
+
+        return redirect()->route('expensive_type.index');
     }
 
     /**
@@ -66,7 +70,9 @@ class ExpensiveTypeController extends Controller
      */
     public function edit($id)
     {
-        //
+        $oExpensiveType = $this->expensiveType->findOrFail($id);
+
+        return view('expensive_type.edit', compact('oExpensiveType'));
     }
 
     /**
@@ -78,7 +84,12 @@ class ExpensiveTypeController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $oData = $request->all();
+
+        $oExpensiveType = $this->expensiveType->find($id);
+        $oExpensiveType->update($oData);
+
+        return redirect()->route('expensive_type.index');
     }
 
     /**
@@ -89,6 +100,9 @@ class ExpensiveTypeController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $oExpensiveType = $this->expensiveType->find($id);
+        $oExpensiveType->delete();
+
+        return redirect()->route('expensive_type.index');
     }
 }

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49c14f6a-61b7-45f0-a65c-3348b8b7cda4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app-cfp-soft/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/app-cfp-soft/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-cfp-soft/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app-cfp-soft/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-cfp-soft/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app-cfp-soft/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-cfp-soft/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/app-cfp-soft/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-cfp-soft/app/Http/Controllers/ExpensiveTypeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app-cfp-soft/app/Http/Controllers/ExpensiveTypeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-cfp-soft/app/Models/ExpensiveType.php" beforeDir="false" afterPath="$PROJECT_DIR$/app-cfp-soft/app/Models/ExpensiveType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-cfp-soft/resources/views/expensive_type/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app-cfp-soft/resources/views/expensive_type/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +152,7 @@
       <updated>1618695782253</updated>
       <workItem from="1618695785572" duration="1945000" />
       <workItem from="1618698123847" duration="2733000" />
-      <workItem from="1618769233988" duration="3064000" />
+      <workItem from="1618769233988" duration="5361000" />
     </task>
     <servers />
   </component>

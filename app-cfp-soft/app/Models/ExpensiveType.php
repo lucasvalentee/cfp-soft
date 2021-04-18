@@ -11,5 +11,7 @@ class ExpensiveType extends Model
 
     protected $table = 'expensive_type';
 
+    protected $primaryKey = 'extid';
+
     protected $fillable = ['extdescription'];
 }
