@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="49c14f6a-61b7-45f0-a65c-3348b8b7cda4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-cfp-soft/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app-cfp-soft/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-cfp-soft/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app-cfp-soft/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-cfp-soft/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/app-cfp-soft/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-cfp-soft/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app-cfp-soft/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-cfp-soft/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/app-cfp-soft/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +151,7 @@
       <workItem from="1618695785572" duration="1945000" />
       <workItem from="1618698123847" duration="2733000" />
       <workItem from="1618769233988" duration="5361000" />
-      <workItem from="1618870244102" duration="5188000" />
+      <workItem from="1618870244102" duration="7363000" />
     </task>
     <servers />
   </component>
