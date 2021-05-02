@@ -16,6 +16,6 @@ class Expense extends Model
     protected $fillable = ['expdate', 'expvalue'];
 
     public function expensiveType() {
-        return $this->belongsTo(ExpensiveType::class, 'extid');
+        return $this->belongsToMany(ExpensiveType::class, 'extid');
     }
 }
