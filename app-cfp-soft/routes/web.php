@@ -25,4 +25,5 @@ Route::group(['middleware' => ['auth']], function() {
     Route::resource('expensive_type', \App\Http\Controllers\ExpensiveTypeController::class);
     Route::resource('revenue_type', \App\Http\Controllers\RevenueTypeController::class);
     Route::resource('expense', \App\Http\Controllers\ExpenseController::class);
+    Route::resource('revenue', \App\Http\Controllers\RevenueController::class);
 });
